@@ -9,5 +9,5 @@ fields['password_lable']= Label(win,text='password')
 fields['password']= Entry(win,show='*')
 for f in fields.values():
     f.pack(anchor=W , fill=X , padx= 10 ,pady= 5)
-Button(win,text='login').pack(anchor=W  , padx=10 , pady=5)
+Button(win,text='login').pack(anchor='center'  , padx=10 , pady=5)
 win.mainloop()
