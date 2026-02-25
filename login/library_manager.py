@@ -22,7 +22,6 @@ import tkinter as tk
 from tkinter import messagebox
 import json
 import os
-
 # نام فایل برای ذخیره اطلاعات کتابخانه
 LIBRARY_FILE = "library.json"
 
